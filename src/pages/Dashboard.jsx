@@ -42,7 +42,7 @@ export default function Dashboard() {
     const [tokenCopied, setTokenCopied] = useState(false);
 
     const [theme, setTheme] = useState(() => {
-        return localStorage.getItem("theme") || "light";
+        return localStorage.getItem("theme") || "dark";
     });
 
     const [bgPreset, setBgPreset] = useState(() => {
