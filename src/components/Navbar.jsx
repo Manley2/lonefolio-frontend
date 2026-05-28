@@ -10,21 +10,7 @@ export default function Navbar({ theme, toggleTheme, handleLogout, activeTab, se
                 Lone Admin
             </div>
 
-            {/* Phoenix Signature Header Search Box */}
-            <div className="hidden sm:flex items-center justify-between bg-white dark:bg-[#101424] border border-slate-200/60 dark:border-phoenix-border-dark px-4 py-2.5 rounded-xl w-80 shadow-sm focus-within:ring-2 focus-within:ring-blue-500/10 focus-within:border-blue-500/50 transition-all duration-200">
-                <div className="flex items-center gap-2">
-                    <span className="text-slate-400 text-xs select-none">🔍</span>
-                    <input 
-                        type="text" 
-                        placeholder="Search Lone console..." 
-                        className="bg-transparent border-0 outline-none text-[10px] text-slate-700 dark:text-slate-250 placeholder-slate-400 font-bold uppercase tracking-wider w-full select-none"
-                        disabled
-                    />
-                </div>
-                <kbd className="hidden md:inline-block bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-phoenix-border-dark rounded px-1.5 py-0.5 text-[8px] font-bold text-slate-400 dark:text-slate-500 font-mono tracking-normal leading-none shadow-sm">
-                    ⌘K
-                </kbd>
-            </div>
+
 
             <div className="flex items-center gap-3">
                 {/* Notification Bell Badge */}
