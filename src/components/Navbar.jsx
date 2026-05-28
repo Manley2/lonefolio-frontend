@@ -12,7 +12,7 @@ export default function Navbar({ theme, toggleTheme, handleLogout, activeTab, se
 
 
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 ml-auto">
                 {/* Notification Bell Badge */}
                 <div className="relative">
                     <button className="p-2.5 rounded-xl bg-white dark:bg-[#101424] border border-slate-200/60 dark:border-phoenix-border-dark hover:bg-slate-50 dark:hover:bg-slate-900 transition-all shadow-sm cursor-pointer text-slate-650 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white relative flex items-center justify-center">
